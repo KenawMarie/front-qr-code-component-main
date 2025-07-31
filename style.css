@@ -10,7 +10,6 @@
 
 body{
     font-family: 'outfit' sans-serif;
-    font-size: 0.94rem;
     max-width: 1440px;
     background-color: hsl(212, 45%, 89%);
     
@@ -20,36 +19,47 @@ img{
 }
 /* ============= typography =========== */
 h1{
-
+    font-size: 1.5rem;
 }
 p{
     color: hsl(218, 44%, 22%);
     font-family: 'outfit' sans-serif;
+    font-size: 0.94rem;
     font-weight: 400;
 }
 
 /* ============= layout  ===============*/
 .container{
     max-width: 80%;
-    background-color: hsl(216, 15%, 48%);
-    margin: 0 auto;
+    background-color: #87cfeb4b;
+    margin: 6.25em auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 768px;
+    justify-content: center;
+    height: 47.5rem;
 }
 }
 .main{
-    max-width:300px;
-    height: 500px;
+    max-width:21.875rem;
+    height: 32.5rem;
     background-color:  hsl(0, 0%, 100%);
     margin: 0 auto;
-    
-    flex-basis: 100%;
-    text-align: justify;
+    border-radius: 1.25em;
+    /* text-align: justify; */
 }
 .qr-image{
-    max-width: 100%;
+    max-width:20rem;
+    margin: 1.25em auto;
+}
+img{
+    border-radius: 0.9375em;
+}
+h1{
+    margin:1.25em 1.5em;
+}
+.main p{
+    margin:1.25em 3.125em;
 }
 
 
@@ -57,8 +67,20 @@ p{
 
 
 
-
-.attribution { font-size: 11px; text-align: center; 
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
     margin-top: auto;
+    background-color: steelblue;
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-top: 1em;
+ }
+.attribution a:hover,
+attribution a:focus{ 
+    color: hsl(228, 77%, 48%);
+    text-decoration: underline;
+ }
