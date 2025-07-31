@@ -71,7 +71,7 @@ h1{
     font-size: 11px; 
     text-align: center; 
     margin-top: auto;
-    background-color: steelblue;
+    background-color: rgba(70, 131, 180, 0.363);
 }
 .attribution a { 
     color: hsl(228, 45%, 44%);
