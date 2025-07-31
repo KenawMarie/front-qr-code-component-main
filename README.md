@@ -20,7 +20,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Screenshot
 
 ![desktop preview](./images/qr-code-component-main_desktop-preview.png)
-![mobile preview](./images/qr-code-component-main_mobile-preview.png)
 
 
 ### Links
